@@ -32,3 +32,24 @@ func generateParenthesis(_ n: Int) -> [String] {
     return result
 }
 print(generateParenthesis(3))
+
+// Funciton to check if parenthesis are in right order.
+func SearchingChallenge(_ str: String) -> Int  {
+    
+      var brax = 0
+
+      for char in str {
+        if char == "(" {
+          brax += 1
+        } else if char == ")" && brax == 0 {
+          return 0
+        } else if char == ")" {
+          brax -= 1
+        }
+      }
+
+      // Note: feel free to modify the return type of this function
+      return brax == 0 ? 1 : 0
+}
+print(SearchingChallenge("(c(oder)) b(yte)"))
+
