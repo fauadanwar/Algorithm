@@ -12,3 +12,7 @@
 - Min Window Substring take the first parameter being the string N and the second parameter being a string K of some characters, and goal is to determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example program should return the string dae.
 
 - Longest Word find longest word in string.
+
+- Factorial take the num parameter being passed and return the factorial of it. 
+example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For the test cases, the range will be between 1 and 18 and the input will always be an integer.
+
