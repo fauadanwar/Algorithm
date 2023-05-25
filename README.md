@@ -5,4 +5,4 @@
 
 - Bracket Combinations contains functions to generate all combinations of well-formed parentheses from given number n. And return total number of parentheses or String generated from parentheses. 
 
--Min Window Substring take the first parameter being the string N and the second parameter being a string K of some characters, and goal is to determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example program should return the string dae.
+- Min Window Substring take the first parameter being the string N and the second parameter being a string K of some characters, and goal is to determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example program should return the string dae.
