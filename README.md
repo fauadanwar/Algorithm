@@ -7,5 +7,6 @@
   1. A function to return total number of parentheses 
   2. A fucntion to return String generated from number of parentheses. 
   3. A funciton to check if parenthesis are in right order. 
+  4. A function to check if a string s containing just the characters '(', ')', '{', '}', '[' and ']'  is valid or not.
 
 - Min Window Substring take the first parameter being the string N and the second parameter being a string K of some characters, and goal is to determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example program should return the string dae.
