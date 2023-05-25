@@ -4,3 +4,5 @@
 - list Of Two Some is an algorithm to find all the pairs of two integers in an unsorted array that sum up to a given target. For example, if the array is [3, 5, 2, -4, 8, 11] and the sum is 7, your program should return [[11, -4], [2, 5]] because 11 + -4 = 7 and 2 + 5 = 7.
 
 - Bracket Combinations contains functions to generate all combinations of well-formed parentheses from given number n. And return total number of parentheses or String generated from parentheses. 
+
+-Min Window Substring take the first parameter being the string N and the second parameter being a string K of some characters, and goal is to determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example program should return the string dae.
