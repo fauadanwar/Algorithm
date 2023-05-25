@@ -1,5 +1,7 @@
 /*
-Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+Problem: Median of Two Sorted Arrays of diffrent size
+
+ Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
 The overall run time complexity should be O(log (m+n)).
 
