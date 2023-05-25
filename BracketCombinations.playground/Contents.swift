@@ -15,7 +15,7 @@ func BracketCombinations(_ num: Int) -> Int
 
 print(BracketCombinations(3))
 
-//  Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+//A function to generate all combinations of well-formed parentheses from given number n.
 func generateParenthesis(_ n: Int) -> [String] {
     var result = [String]()
     func genBrackets(left: Int, right: Int, str: String)
