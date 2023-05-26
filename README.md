@@ -17,3 +17,7 @@
 example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For the test cases, the range will be between 1 and 18 and the input will always be an integer.
 
 - Reverse Array reverses an Array of generic type.
+
+- Merge Sorted Array merge two sorted array. Ex. first array = [1,3,4,6,10] second array = [2,5,7,8,9] and result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+- Merge Array sequential merge two array sequentially by taking one element from each array at a time. Ex. firstArray [1,4,2,3], secondArray: [5,10,7,8,9] result: [1, 5, 4, 10, 2, 7, 3, 8, 9]
