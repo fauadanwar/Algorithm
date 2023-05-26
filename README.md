@@ -25,3 +25,5 @@ example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For t
 - Merge And Sort Arrays merge and sort arrays using diffrent methods ex. input [[1,4,2,3],[4],[5,10,7,8,9]] Output: [1, 2, 3, 4, 4, 5, 7, 8, 9, 10]
 
 - Fibonacci of Number using recursion or extra memory
+
+- Climbing staircase: It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
