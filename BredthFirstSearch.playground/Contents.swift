@@ -14,6 +14,26 @@ func bredthFirstSearch( graph: [Character: [Character]], source: Character)
         }
     }
 }
+
+func hasPathBFS( graph: [Character: [Character]], source: Character, destination : Character) -> Bool
+{
+    var queue = [source]
+    
+    while queue.count > 0
+    {
+        let current = queue.removeFirst()
+        if current == destination
+        {
+            return true
+        }
+        for neighbour in graph[current]!
+        {
+            queue.append(neighbour)
+        }
+    }
+    return false
+}
+
 let graph: [Character: [Character]] = [
     "a": ["b", "c"],
     "b": ["d"],
@@ -23,3 +43,4 @@ let graph: [Character: [Character]] = [
     "f": []
 ]
 bredthFirstSearch(graph: graph, source: "a")
+print(hasPathBFS(graph: graph, source: "a", destination: "f"))
