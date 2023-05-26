@@ -23,3 +23,5 @@ example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For t
 - Merge Array sequential merge two array sequentially by taking one element from each array at a time. Ex. firstArray [1,4,2,3], secondArray: [5,10,7,8,9] result: [1, 5, 4, 10, 2, 7, 3, 8, 9]
 
 - Merge And Sort Arrays merge and sort arrays using diffrent methods ex. input [[1,4,2,3],[4],[5,10,7,8,9]] Output: [1, 2, 3, 4, 4, 5, 7, 8, 9, 10]
+
+- Fibonacci of Number using recursion or extra memory
