@@ -27,3 +27,5 @@ example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For t
 - Fibonacci of Number using recursion or extra memory
 
 - Climbing staircase: It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+- Depth First Search, Recursive Depth First Search and finding path using Depth First Search
