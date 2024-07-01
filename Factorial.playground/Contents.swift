@@ -12,3 +12,4 @@ func factorial(_ num: Int) -> Int {
 }
 
 print(factorial(4))
+

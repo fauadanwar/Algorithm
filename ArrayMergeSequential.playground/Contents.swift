@@ -39,3 +39,4 @@ func mergeArray <T>(firstArray: Array<T>, secondArray:Array<T>) -> Array<T> {
     }
 }
 print(mergeArray(firstArray: [1,4,2,3], secondArray: [5,10,7,8,9]))
+
